@@ -2,7 +2,7 @@ import touch from '../assets/touch.png';
 
 const Contact = () => {
     return (
-            <div id="contact" className="hero min-h-screen bg-gradient-to-b from-black/90 to-gray-900">
+            <div id="contact" className="hero min-h-screen bg-gradient-to-b from-black/90 to-gray-900 py-16">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-10">
                     <div className="text-center lg:text-left">
                         <h1 className="text-5xl text-orange-500 font-bold text-center">Get in touch</h1>
@@ -35,7 +35,7 @@ const Contact = () => {
                                 <textarea placeholder="Your Message" className="textarea textarea-bordered textarea-lg bg-transparent border-orange-500 focus:bg-orange-200 text-white focus:text-black" ></textarea>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn bg-transparent text-white border-orange-500">Send Message</button>
+                                <button className="btn bg-transparent hover:bg-orange-500 text-white border-orange-500 hover:border-0">Send Message</button>
                             </div>
                         </form>
                     </div>
