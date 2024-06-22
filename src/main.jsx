@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
+import ErrorPage from './components/ErrorPage';
 import {
-  BrowserRouter,
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
@@ -11,15 +11,13 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorPage />,
     element: <App></App>,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <RouterProvider router={router} /> */}
-    <BrowserRouter basename="/portfolio/"> {/* Replace with your base URL prefix */}
-      <RouterProvider router={router} />
-    </BrowserRouter>
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

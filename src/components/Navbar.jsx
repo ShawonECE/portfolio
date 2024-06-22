@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white text-lg">
-                        <li><HashLink smooth to="#home" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Home</HashLink></li>
+                        <li><HashLink smooth to="#home" className={location.hash === "#home" || location.hash === "" ? "text-orange-500 font-bold" : ""}>Home</HashLink></li>
                         <li><HashLink smooth to="#about" className={location.hash === "#about" ? "text-orange-500 font-bold" : ""}>About Me</HashLink></li>
                         <li><HashLink smooth to="#skills" className={location.hash === "#skills" ? "text-orange-500 font-bold" : ""}>Skills</HashLink></li>
                         <li><HashLink smooth to="#projects" className={location.hash === "#projects" ? "text-orange-500 font-bold" : ""}>Projects</HashLink></li>
