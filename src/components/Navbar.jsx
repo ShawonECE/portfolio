@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
     const location = useLocation();
     return (
-        <div className="bg-black bg-opacity-50 w-full fixed z-10">
+        <div className="bg-black bg-opacity-50 w-full fixed z-20">
             <div className="navbar container mx-auto px-4">
                 <div className="navbar-start">
                     <div className="dropdown dropdown-hover">
