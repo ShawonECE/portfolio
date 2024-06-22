@@ -13,20 +13,21 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-black bg-opacity-50 text-white text-lg">
-                            <li><HashLink smooth to="#about">About Me</HashLink></li>
-                            <li><HashLink smooth to="#skills">Skills</HashLink></li>
-                            <li><HashLink smooth to="#projects">Projects</HashLink></li>
-                            <li><HashLink smooth to="#contact">Contact</HashLink></li>
+                            <li><HashLink smooth to="#home" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Home</HashLink></li>
+                            <li><HashLink smooth to="#about" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>About Me</HashLink></li>
+                            <li><HashLink smooth to="#skills" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Skills</HashLink></li>
+                            <li><HashLink smooth to="#projects" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Projects</HashLink></li>
+                            <li><HashLink smooth to="#contact" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Contact</HashLink></li>
                         </ul>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white text-lg">
-                        <li><HashLink smooth to="/#home" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Home</HashLink></li>
-                        <li><HashLink smooth to="/#about" className={location.hash === "#about" ? "text-orange-500 font-bold" : ""}>About Me</HashLink></li>
-                        <li><HashLink smooth to="/#skills" className={location.hash === "#skills" ? "text-orange-500 font-bold" : ""}>Skills</HashLink></li>
-                        <li><HashLink smooth to="/#projects" className={location.hash === "#projects" ? "text-orange-500 font-bold" : ""}>Projects</HashLink></li>
-                        <li><HashLink smooth to="/#contact" className={location.hash === "#contact" ? "text-orange-500 font-bold" : ""}>Contact</HashLink></li>
+                        <li><HashLink smooth to="#home" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Home</HashLink></li>
+                        <li><HashLink smooth to="#about" className={location.hash === "#about" ? "text-orange-500 font-bold" : ""}>About Me</HashLink></li>
+                        <li><HashLink smooth to="#skills" className={location.hash === "#skills" ? "text-orange-500 font-bold" : ""}>Skills</HashLink></li>
+                        <li><HashLink smooth to="#projects" className={location.hash === "#projects" ? "text-orange-500 font-bold" : ""}>Projects</HashLink></li>
+                        <li><HashLink smooth to="#contact" className={location.hash === "#contact" ? "text-orange-500 font-bold" : ""}>Contact</HashLink></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
