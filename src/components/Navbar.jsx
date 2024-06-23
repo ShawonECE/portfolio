@@ -14,10 +14,10 @@ const Navbar = () => {
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-black bg-opacity-50 text-white text-lg">
                             <li><HashLink smooth to="#home" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Home</HashLink></li>
-                            <li><HashLink smooth to="#about" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>About Me</HashLink></li>
-                            <li><HashLink smooth to="#skills" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Skills</HashLink></li>
-                            <li><HashLink smooth to="#projects" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Projects</HashLink></li>
-                            <li><HashLink smooth to="#contact" className={location.hash === "#home" ? "text-orange-500 font-bold" : ""}>Contact</HashLink></li>
+                            <li><HashLink smooth to="#about" className={location.hash === "#about" ? "text-orange-500 font-bold" : ""}>About Me</HashLink></li>
+                            <li><HashLink smooth to="#skills" className={location.hash === "#skills" ? "text-orange-500 font-bold" : ""}>Skills</HashLink></li>
+                            <li><HashLink smooth to="#projects" className={location.hash === "#projects" ? "text-orange-500 font-bold" : ""}>Projects</HashLink></li>
+                            <li><HashLink smooth to="#contact" className={location.hash === "#contact" ? "text-orange-500 font-bold" : ""}>Contact</HashLink></li>
                         </ul>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="https://drive.google.com/file/d/1xZHfJ6ia257L_QHh5UISyzACRSGLPFh6/view?usp=drive_link" className="btn text-lg bg-transparent text-white hover:bg-orange-500 hover:border-0 border-orange-500"><MdOutlineFileDownload className="text-2xl" />Resume</a>
+                    <a href="https://drive.google.com/file/d/1xZHfJ6ia257L_QHh5UISyzACRSGLPFh6/view?usp=drive_link" className="btn btn-sm md:btn-md lg:text-lg bg-transparent text-white hover:bg-orange-500 hover:border-0 border-orange-500"><MdOutlineFileDownload className="text-xl lg:text-2xl" />Resume</a>
                 </div>
             </div>
         </div>

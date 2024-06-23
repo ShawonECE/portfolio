@@ -1,4 +1,7 @@
+import { FaLocationDot, FaPhone } from 'react-icons/fa6';
 import profile from '../assets/profile.jpg';
+import { FaUserGraduate } from "react-icons/fa";
+import { MdEmail } from 'react-icons/md';
 
 const About = () => {
     return (
@@ -18,6 +21,24 @@ const About = () => {
                         <p className='text-white text-justify text-lg'>
                             My background in teaching math and physics instilled in me strong analytical and problem-solving abilities. These skills translate seamlessly into web development, allowing me to approach challenges creatively and deliver efficient solutions.
                         </p>
+                        <div className='flex items-center gap-2 mt-4 mb-3'>
+                            <FaUserGraduate className='text-orange-500 text-xl' />
+                            <p className='text-white text-lg'>Electronics & Communication Engineering, Khulna University</p>
+                        </div>
+                        <div className='flex flex-wrap gap-x-16 gap-y-3'>
+                            <div className='flex items-center gap-2'>
+                                <FaLocationDot className='text-orange-500 text-xl'/>
+                                <p className='text-white text-lg'>Khulna, Bangladesh</p>
+                            </div>
+                            <div className='flex items-center gap-2'>
+                                <MdEmail className='text-orange-500 text-xl'/>
+                                <p className='text-white text-lg'>shahriar.shawon.ece@gmail.com</p>
+                            </div>
+                            <div className='flex items-center gap-2'>
+                                <FaPhone className='text-orange-500 text-xl'/>
+                                <p className='text-white text-lg'>+880 1775003179</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
