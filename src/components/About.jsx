@@ -16,10 +16,10 @@ const About = () => {
                     <div className="md:col-span-2">
                         <p className='text-3xl font-bold text-white mb-5 border-b-2 border-orange-500 w-36 pb-2'>About Me</p>
                         <p className='text-white text-justify text-lg mb-2'>
-                            I&apos;m Shahriar Shawon, a passionate web developer with a strong foundation in various technologies, from front-end design to back-end development. My experience building user-friendly web applications has honed my skills in crafting intuitive and functional user experiences.
+                            I&apos;m Shahriar Shawon, a passionate programmer, web developer with a strong foundation in various technologies, from front-end design to back-end development. My experience building user-friendly web applications has honed my skills in crafting intuitive and functional user experiences.
                         </p>
                         <p className='text-white text-justify text-lg'>
-                            My background in teaching math and physics instilled in me strong analytical and problem-solving abilities. These skills translate seamlessly into web development, allowing me to approach challenges creatively and deliver efficient solutions.
+                            My background in teaching math and physics instilled in me strong analytical and problem-solving abilities. These skills translate seamlessly into programming, allowing me to approach challenges creatively and deliver efficient solutions.
                         </p>
                         <div className='flex items-center gap-2 mt-4 mb-3'>
                             <FaUserGraduate className='text-orange-500 text-xl' />

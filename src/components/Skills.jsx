@@ -54,7 +54,7 @@ const Skills = () => {
     return (
         <div id='skills' className="bg-gradient-to-r from-black/90 to-gray-900">
             <div className="container mx-auto px-4 md:px-8 lg:px-12">
-                <h2 className='text-3xl font-bold text-white mb-7 border-b-2 border-orange-500 pb-2 w-20'>Skills</h2>
+                <h2 className='text-3xl font-bold text-white mb-7 border-b-2 border-orange-500 pb-2 w-[76px]'>Skills</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
                     {
                         skills.map((skill, idx) => <SkillCard key={ idx } skill={ skill }></SkillCard>)
