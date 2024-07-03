@@ -31,7 +31,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="https://drive.google.com/file/d/1xZHfJ6ia257L_QHh5UISyzACRSGLPFh6/view?usp=drive_link" className="btn btn-sm md:btn-md lg:text-lg bg-transparent text-white hover:bg-orange-500 hover:border-0 border-orange-500"><MdOutlineFileDownload className="text-xl lg:text-2xl" />Resume</a>
+                    <a href="https://drive.google.com/file/d/1xZHfJ6ia257L_QHh5UISyzACRSGLPFh6/view?usp=drive_link" target="blank" className="btn btn-sm md:btn-md lg:text-lg bg-transparent text-white hover:bg-orange-500 hover:border-0 border-orange-500"><MdOutlineFileDownload className="text-xl lg:text-2xl" />Resume</a>
                 </div>
             </div>
         </div>
