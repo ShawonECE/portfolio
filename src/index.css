@@ -9,3 +9,8 @@
 .lato {
     font-family: "Lato", sans-serif;
 }
+
+.tooltip-custom {
+    --tooltip-color: #f97316;
+    --tooltip-text-color: black;
+}

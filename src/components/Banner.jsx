@@ -1,4 +1,5 @@
 import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { HashLink } from 'react-router-hash-link';
 import { Typewriter } from 'react-simple-typewriter';
 
@@ -15,24 +16,29 @@ const Banner = () => {
                         </h2>
                         <p className="mb-5 text-lg md:text-xl lato">I&apos;m an enthusiastic web developer and programmer. Using JavaScript, React, Tailwind, Node.js, Express.js, MongoDB, I create user-friendly web applications with an emphasis on functionality and user experience.</p>
                         <div className="flex justify-center gap-3 mb-5">
-                            <div className="group">
+                            <div className="group tooltip tooltip-custom" data-tip="LinkedIn profile">
                                 <a className="btn btn-circle btn-outline border-orange-500 group-hover:bg-orange-500" href="https://www.linkedin.com/in/shahriar-shawon-ece" target="blank">
                                     <FaLinkedin className="text-orange-500 group-hover:text-gray-950 text-3xl" />
                                 </a>
                             </div>
-                            <div className="group">
+                            <div className="group tooltip tooltip-custom" data-tip="GitHub profile">
                                 <a className="btn btn-circle btn-outline border-orange-500 group-hover:bg-orange-500" href="https://github.com/ShawonECE" target="blank">
                                     <FaGithub className="text-orange-500 text-3xl group-hover:text-gray-950" />
                                 </a>
                             </div>
-                            <div className="group">
+                            <div className="group tooltip tooltip-custom" data-tip="Leetcode profile">
+                                <a className="btn btn-circle btn-outline border-orange-500 group-hover:bg-orange-500" href="https://leetcode.com/u/ShawonECE" target="blank">
+                                    <SiLeetcode className="text-orange-500 group-hover:text-gray-950 text-3xl" />
+                                </a>
+                            </div>
+                            <div className="group tooltip tooltip-custom" data-tip="Facebook profile">
                                 <a className="btn btn-circle btn-outline border-orange-500 group-hover:bg-orange-500" href="https://www.facebook.com/shahriar.shawon.790" target="blank">
                                     <FaFacebookSquare className="text-orange-500 text-3xl group-hover:text-gray-950" />
                                 </a>
                             </div>
                         </div>
                         <div className="group inline-block">
-                            <button className="btn text-lg group-hover:text-xl bg-transparent text-white group-hover:text-gray-950 group-hover:bg-orange-500 hover:border-0 border-orange-500 lato"><HashLink smooth to="/#contact">Let&apos;s connect</HashLink></button>
+                            <button className="btn text-lg group-hover:text-xl bg-transparent text-white group-hover:text-gray-950 group-hover:bg-[#ef6c00] hover:border-0 border-orange-500 lato"><HashLink smooth to="/#contact">Let&apos;s connect</HashLink></button>
                         </div>
                     </div>
                 </div>
