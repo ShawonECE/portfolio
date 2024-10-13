@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.playfair {
+  font-family: "Playfair", serif;
+}
+
+.lato {
+    font-family: "Lato", sans-serif;
+}
