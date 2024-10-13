@@ -11,7 +11,7 @@ const Banner = () => {
                     <div className="p-10 bg-black bg-opacity-50 backdrop-blur-md">
                         <h1 className="mb-5 text-5xl md:text-6xl font-bold">Hello! I&apos;m <span className="text-orange-500">Shahriar Shawon</span></h1>
                         <h2 className="text-4xl font-bold mb-5">
-                            <Typewriter loop={false} words={['Web Developer', 'Front-end Engineer', 'Programmer']} />
+                            <Typewriter cursorStyle='_' cursor={true} loop={true} words={['Web Developer', 'Front-end Engineer', 'Problem Solver', 'Programmer']} />
                         </h2>
                         <p className="mb-5 text-lg">I&apos;m an enthusiastic web developer and programmer. Using JavaScript, React, Tailwind, Node.js, Express.js, MongoDB, I create user-friendly web applications with an emphasis on functionality and user experience.</p>
                         <div className="flex justify-center gap-3 mb-5">
