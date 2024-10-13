@@ -14,29 +14,29 @@ const About = () => {
                         </div>
                     </div>
                     <div className="md:col-span-2">
-                        <p className='text-3xl font-bold text-white mb-5 border-b-2 border-orange-500 w-36 pb-2'>About Me</p>
-                        <p className='text-white text-justify text-lg mb-2'>
+                        <p className='text-4xl font-bold text-white mb-5 border-b-2 border-orange-500 w-36 pb-1 playfair'>About Me</p>
+                        <p className='text-white text-justify text-lg md:text-xl mb-4 lato'>
                             I&apos;m Shahriar Shawon, a passionate programmer, web developer with a strong foundation in various technologies, from front-end design to back-end development. My experience building user-friendly web applications has honed my skills in crafting intuitive and functional user experiences.
                         </p>
-                        <p className='text-white text-justify text-lg'>
+                        <p className='text-white text-justify text-lg md:text-xl lato'>
                             My background in teaching math and physics instilled in me strong analytical and problem-solving abilities. These skills translate seamlessly into programming, allowing me to approach challenges creatively and deliver efficient solutions.
                         </p>
-                        <div className='flex items-center gap-2 mt-4 mb-3'>
-                            <FaUserGraduate className='text-orange-500 text-xl' />
-                            <p className='text-white text-lg'>Electronics & Communication Engineering, Khulna University</p>
+                        <div className='flex items-start lg:items-center gap-2 mt-6 mb-3'>
+                            <FaUserGraduate className='text-orange-500 text-xl md:text-2xl mt-1 lg:mt-0' />
+                            <p className='text-white text-lg md:text-xl lato'>Electronics & Communication Engineering, Khulna University</p>
                         </div>
                         <div className='flex flex-wrap gap-x-16 gap-y-3'>
                             <div className='flex items-center gap-2'>
-                                <FaLocationDot className='text-orange-500 text-xl'/>
-                                <p className='text-white text-lg'>Khulna, Bangladesh</p>
+                                <FaLocationDot className='text-orange-500 text-xl md:text-2xl'/>
+                                <p className='text-white text-lg md:text-xl lato'>Khulna, Bangladesh</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <MdEmail className='text-orange-500 text-xl'/>
-                                <p className='text-white text-lg'>shahriar.shawon.ece@gmail.com</p>
+                                <MdEmail className='text-orange-500 text-xl md:text-2xl'/>
+                                <p className='text-white text-lg md:text-xl lato'>shahriar.shawon.ece@gmail.com</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <FaPhone className='text-orange-500 text-xl'/>
-                                <p className='text-white text-lg'>+880 1775003179</p>
+                                <FaPhone className='text-orange-500 text-xl md:text-2xl'/>
+                                <p className='text-white text-lg md:text-xl lato'>+880 1775003179</p>
                             </div>
                         </div>
                     </div>

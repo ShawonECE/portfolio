@@ -53,7 +53,7 @@ const Projects = () => {
     return (
         <div id='projects' className="bg-gradient-to-r from-black/90 to-gray-900 pb-16">
             <div className="container mx-auto px-4 md:px-8 lg:px-12">
-                <h2 className='text-3xl font-bold text-white mb-7 pt-20 border-b-2 border-orange-500 pb-2 w-[116px]'>Projects</h2>
+                <h2 className='text-4xl font-bold text-white mb-7 pt-20 border-b-2 border-orange-500 pb-1 w-[122px] playfair'>Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     {
                         projects.map((project, idx) => <ProjectCard key={ idx } project={ project }></ProjectCard>)
