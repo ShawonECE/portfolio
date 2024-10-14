@@ -14,3 +14,9 @@
     --tooltip-color: #ff9950;
     --tooltip-text-color: black;
 }
+
+.project-slide {
+  transition: none !important; /* Ensure Swiper handles transitions */
+  transform: none !important;
+  opacity: 1 !important;
+}
