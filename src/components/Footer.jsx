@@ -7,18 +7,18 @@ const Footer = () => {
         <div className="bg-black/90 text-neutral-content">
             <footer className="container footer mx-auto px-4 md:px-8 lg:px-12 py-12">
                 <aside>
-                    <h2 className="text-4xl text-orange-500 font-bold mb-4">Shahriar Shawon</h2>
+                    <h2 className="text-5xl text-orange-500 font-bold mb-0 playfair">Shahriar Shawon</h2>
                     <div className="flex gap-2 items-center">
-                        <MdEmail className="text-xl text-orange-500" />
-                        <p className="text-lg">shahriar.shawon.ece@gmail.com</p>
+                        <MdEmail className="text-xl md:text-2xl text-orange-500" />
+                        <p className="text-lg md:text-xl lato">shahriar.shawon.ece@gmail.com</p>
                     </div>
                     <div className="flex gap-2 items-center">
-                        <FaPhoneAlt className="text-lg text-orange-500" />
-                        <p className="text-lg">+880 1775003179</p>
+                        <FaPhoneAlt className="text-xl md:text-2xl text-orange-500" />
+                        <p className="text-lg md:text-xl lato">+880 1775003179</p>
                     </div>
                 </aside>
                 <nav>
-                    <h6 className="footer-title">Digital Footprints</h6>
+                    <h6 className="footer-title lato">Digital Footprints</h6>
                     <div className="grid grid-flow-col gap-4">
                         <div className="group tooltip tooltip-bottom tooltip-custom" data-tip="LinkedIn profile">
                             <a className="btn btn-circle btn-outline border-orange-500 group-hover:bg-orange-500" href="https://www.linkedin.com/in/shahriar-shawon-ece" target="blank">
