@@ -32,7 +32,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <div className="group inline-block">
-                    <a href="https://drive.google.com/file/d/1xZHfJ6ia257L_QHh5UISyzACRSGLPFh6/view?usp=drive_link" target="blank" className="btn btn-sm md:btn-md text-base group-hover:text-lg md:text-lg md:group-hover:text-xl bg-transparent text-white group-hover:text-gray-950 group-hover:bg-orange-500 hover:border-0 border-orange-500 lato"><MdOutlineFileDownload className="text-xl lg:text-2xl" />Resume</a>
+                        <a href="https://drive.google.com/file/d/1xZHfJ6ia257L_QHh5UISyzACRSGLPFh6/view?usp=drive_link" target="blank" className="btn btn-sm md:btn-md text-base group-hover:text-lg md:text-lg md:group-hover:text-xl bg-transparent text-white group-hover:text-gray-950 group-hover:bg-orange-500 hover:border-0 border-orange-500 lato"><MdOutlineFileDownload className="text-xl lg:text-2xl" />Resume</a>
                     </div>
                 </div>
             </div>
